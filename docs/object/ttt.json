@@ -1,0 +1,25 @@
+{
+    "id": 4,
+    "full_code": "darvel.core.ttt",
+    "document_type": "object",
+    "code": "ttt",
+    "data": {
+        "properties": [
+            {
+                "type": {
+                    "type": "object",
+                    "object_code": "base.test"
+                },
+                "code": "xxx",
+                "name": "xxx",
+                "complexity_level": 1
+            }
+        ],
+        "id": 4,
+        "code": "ttt",
+        "name": "ttttttt"
+    },
+    "created_at": "2022-02-22T17:06:40.404601Z",
+    "modified_at": "2022-02-22T18:37:49.282966Z",
+    "package_version": 1
+}
