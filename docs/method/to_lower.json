@@ -1,0 +1,23 @@
+{
+    "document_type": "method",
+    "code": "to_lower",
+    "data": {
+        "description": "",
+        "is_active": true,
+        "parent_type": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "source_code_for_binary_operator": "",
+        "code": "to_lower",
+        "name": "Min\u00fasculas",
+        "complexity_level": 1,
+        "language": "python",
+        "source_code": "(self or \"\").lower()",
+        "render_template": "Min\u00fasculas"
+    },
+    "created_at": "2022-03-03T17:25:47.294236+01:00",
+    "modified_at": "2022-03-03T17:25:47.294288+01:00"
+}

@@ -1,0 +1,42 @@
+{
+    "document_type": "method",
+    "code": "substring",
+    "data": {
+        "description": "",
+        "is_active": true,
+        "parent_type": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "param_members": [
+            {
+                "type": {
+                    "type": "integer"
+                },
+                "required": false,
+                "options": [],
+                "code": "from",
+                "name": "Desde"
+            },
+            {
+                "type": {
+                    "type": "integer"
+                },
+                "required": false,
+                "code": "to",
+                "name": "Hasta"
+            }
+        ],
+        "source_code_for_binary_operator": "",
+        "code": "substring",
+        "name": "Extrae cadena",
+        "complexity_level": 1,
+        "language": "python",
+        "source_code": "self[params[\"from\"]:params[\"to\"]]",
+        "render_template": "Subcadena entre {{from}} y {{to}}"
+    },
+    "created_at": "2022-03-08T11:50:54.390073+01:00",
+    "modified_at": "2022-03-08T11:50:54.390119+01:00"
+}
